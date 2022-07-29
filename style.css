@@ -1,0 +1,47 @@
+#board { 
+    width: 512px;
+    height: 512px;
+    padding: 0px;
+    text-align: center;
+}
+.square { 
+    width: 64px; 
+    height: 64px; 
+    display: inline-block;
+    padding: 0px;  
+    margin: 0px;
+    text-align: center; 
+    position: relative;
+}
+
+.dark { 
+    background: rgb(81,130,171);
+}
+
+.light { 
+    background: rgb(124,161,191);
+}
+
+.black { 
+    background: black;
+}
+
+.white { 
+    background: white;
+}
+
+.highlighted { 
+    background: #198754;
+}
+
+.piece { 
+	position: absolute;
+	transform: translateY(-70%);
+    left: 8px;
+}
+
+p { 
+    font-size: 48px;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: transparent;
+}
